@@ -1,0 +1,14 @@
+{
+  "name": "macrolens",
+  "version": "1.0.0",
+  "description": "MacroLens: pay-per-call global macro statistics and official company registry lookups for AI agents (x402)",
+  "type": "module",
+  "scripts": { "dev": "wrangler dev" },
+  "dependencies": {
+    "@x402/core": "2.26.0",
+    "@x402/evm": "2.26.0",
+    "@x402/extensions": "2.26.0",
+    "@x402/hono": "2.26.0",
+    "hono": "4.13.11"
+  }
+}
