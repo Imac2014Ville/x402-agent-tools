@@ -1,5 +1,7 @@
 # x402-agent-tools
 
+**Building your own paid API?** The [x402 on Cloudflare Workers production starter kit](https://x402shop.imac2014ville.workers.dev/) packages this exact setup (v1+v2 clients, facilitator failover, discovery, ownership proofs, deploy and listing guide). Pay with USDC on Base, no account needed.
+
 Six live pay-per-call APIs for AI agents. No API keys, no accounts: each call is paid in USDC on Base via the [x402](https://x402.org) protocol. Settlement uses the PayAI facilitator with automatic failover. Servers speak x402 v1 and v2, so both `@x402/fetch` and older v1 clients work. Listed on x402scan and agentcash.
 
 | Service | Origin | What it does |
